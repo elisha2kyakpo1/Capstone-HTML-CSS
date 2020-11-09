@@ -38,19 +38,24 @@ body {
   padding: 5px;
 }
 
-/* .shipping {
-  float: right;
-} */
+.inner-div a {
+  color: #000;
+  font-size: 1.2rem;
+}
 
 .inner-div {
+  max-width: 100%;
+  height: auto;
   margin: 30px 0;
   padding: 10px;
   box-shadow: 0 0 5px #edf2f7;
   border-radius: 5px;
-  background-color: #f7fafc;
+  background-color: white;
 }
 
 .inner-div img {
+  max-width: 100%;
+  object-fit: cover;
   cursor: pointer;
   display: block;
   margin: 0 auto;
@@ -101,4 +106,28 @@ body {
 
 .form input[type=text] {
   padding-left: 4px;
+}
+
+.footer-anchor {
+  color: black;
+  font-size: 19px;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* tab/desktop */
+@media screen and (min-width: 768px) {
+  .inner-div img {
+    cursor: pointer;
+    float: left;
+    margin-right: 8px;
+  }
 }
