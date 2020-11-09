@@ -5,6 +5,13 @@
   margin: 0;
 }
 
+header {
+  background-color: #383838;
+  padding: 5px 0;
+}
+
+.nav-2,
+.form,
 .navbar,
 .home,
 .signup,
@@ -17,7 +24,11 @@
   justify-content: space-between;
   align-items: center;
   padding: 5px;
-  background-color: aqua;
+}
+
+.nav-2 {
+  justify-content: space-around;
+  align-items: center;
 }
 
 .logo {
@@ -37,9 +48,10 @@
 }
 
 .child-deal,
-.child-signup {
+.child-signup,
+.logo h4 {
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .child-signup {
