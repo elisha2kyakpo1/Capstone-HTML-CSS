@@ -25,11 +25,8 @@ header {
 
 .form-d,
 .nav-link-container,
-.smart-phones,
-.lap,
-.tv,
-.gamesv,
 .nav-2,
+.nav-cont,
 .form,
 .navbar-big,
 .home,
@@ -43,9 +40,11 @@ header {
   padding: 10px;
 }
 
+.home,
 .navbar-big {
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 5px;
 }
 
@@ -55,7 +54,12 @@ header {
 }
 
 .inner-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-width: 100%;
+  max-height: 100%;
   height: auto;
   margin: 30px 10px;
   padding: 10px;
@@ -67,13 +71,17 @@ header {
 .inner-div img,
 .phone-div > div > img {
   max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
   object-fit: cover;
   cursor: pointer;
   display: block;
   margin: 0 auto;
 }
 
-.home {
+.home,
+.nav-2 {
   justify-content: space-around;
   align-items: center;
   flex: 1;
@@ -100,6 +108,10 @@ header {
   padding-bottom: 30px;
   color: #fff;
   font-weight: 800;
+}
+
+.h2-search {
+  justify-self: start;
 }
 
 .child-signup,
@@ -173,13 +185,11 @@ header {
 @media screen and (min-width: 768px) {
   .inner-div img {
     cursor: pointer;
-    float: left;
-    margin-right: 8px;
+    margin: auto;
     max-width: 100%;
   }
 
   .nav-cont {
-    display: flex;
     flex-direction: column;
     justify-content: space-around;
   }
@@ -188,6 +198,7 @@ header {
   .lap,
   .tv,
   .gamesv {
+    display: flex;
     justify-content: space-around;
     align-items: center;
   }
@@ -221,11 +232,6 @@ header {
   .tv,
   .gamesv {
     flex: 1;
-  }
-
-  .navbar-big,
-  .home {
-    flex-wrap: wrap;
   }
 
   .form-d {
