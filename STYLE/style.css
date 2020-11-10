@@ -130,6 +130,7 @@ header {
   border-radius: 3px;
 }
 
+.dropdown-b button,
 .form-d input[type=text] {
   padding: 5px 0 5px 5px;
   outline: none;
@@ -168,42 +169,19 @@ header {
   margin-bottom: 10px;
 }
 
-/* mobile */
-@media screan and (max-width: 767px) {
-  .smart-phones,
-  .lap,
-  .tv,
-  .gamesv {
-    flex: 1;
-  }
-
-  .navbar-big,
-  .home {
-    flex-wrap: wrap;
-  }
-
-  .form-d {
-    flex-wrap: wrap-reverse;
-  }
-
-  .category {
-    display: none;
-  }
-}
-
 /* tab/desktop */
 @media screen and (min-width: 768px) {
   .inner-div img {
     cursor: pointer;
     float: left;
     margin-right: 8px;
+    max-width: 100%;
   }
 
   .nav-cont {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
   }
 
   .smart-phones,
@@ -224,6 +202,7 @@ header {
     flex: 1;
   }
 
+  .dropdown-b button,
   .form-d input[type=text] {
     padding: 10px 0 10px 10px;
     outline: none;
@@ -232,5 +211,28 @@ header {
   .form-d input[type=submit] {
     padding: 10px 15px;
     font-size: 18px;
+  }
+}
+
+/* mobile */
+@media screan and (max-width: 767px) {
+  .smart-phones,
+  .lap,
+  .tv,
+  .gamesv {
+    flex: 1;
+  }
+
+  .navbar-big,
+  .home {
+    flex-wrap: wrap;
+  }
+
+  .form-d {
+    flex-wrap: wrap-reverse;
+  }
+
+  .category {
+    display: none;
   }
 }
