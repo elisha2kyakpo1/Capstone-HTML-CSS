@@ -10,9 +10,6 @@ body {
 }
 
 .nav-cont {
-  position: fixed;
-  top: 0;
-  padding: 10px 0;
   background-color: #4a5568;
 }
 
@@ -22,6 +19,7 @@ body {
   color: white;
 }
 
+.smart-phones,
 .nav-2,
 .form,
 .navbar-big,
@@ -30,6 +28,10 @@ body {
 .logo {
   display: flex;
   font-family: 'Roboto', sans-serif;
+}
+
+.smart-phones {
+  padding: 10px;
 }
 
 .navbar-big {
@@ -113,6 +115,11 @@ body {
   font-size: 19px;
 }
 
+.cell-phone {
+  background-color: #81e6d9;
+  color: #234e52;
+}
+
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1023px) {
   .nav-cont {
@@ -129,5 +136,10 @@ body {
     cursor: pointer;
     float: left;
     margin-right: 8px;
+  }
+
+  .smart-phones {
+    justify-content: space-between;
+    align-items: center;
   }
 }
