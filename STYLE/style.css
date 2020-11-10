@@ -181,6 +181,10 @@ header {
   margin-bottom: 10px;
 }
 
+.form-d {
+  flex-wrap: wrap-reverse;
+}
+
 /* tab/desktop */
 @media screen and (min-width: 768px) {
   .inner-div img {
@@ -232,10 +236,6 @@ header {
   .tv,
   .gamesv {
     flex: 1;
-  }
-
-  .form-d {
-    flex-wrap: wrap-reverse;
   }
 
   .category {
