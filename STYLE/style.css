@@ -23,6 +23,7 @@ header {
   color: white;
 }
 
+.form-d,
 .nav-link-container,
 .smart-phones,
 .lap,
@@ -63,7 +64,8 @@ header {
   background-color: white;
 }
 
-.inner-div img {
+.inner-div img,
+.phone-div > div > img {
   max-width: 100%;
   object-fit: cover;
   cursor: pointer;
@@ -86,6 +88,7 @@ header {
 }
 
 .logo,
+.form-d,
 .nav-link-container {
   justify-content: center;
   align-items: center;
@@ -127,14 +130,14 @@ header {
   border-radius: 3px;
 }
 
-.form input[type=text] {
-  padding: 10px 0 10px 10px;
+.form-d input[type=text] {
+  padding: 5px 0 5px 5px;
   outline: none;
 }
 
-.form input[type=submit] {
-  padding: 10px 15px;
-  font-size: 18px;
+.form-d input[type=submit] {
+  padding: 5px 10px;
+  font-size: 16px;
 }
 
 .footer-anchor {
@@ -162,7 +165,25 @@ header {
   .lap,
   .tv,
   .gamesv {
-    flex-direction: column;
+    flex: 1;
+  }
+
+  .phone-div > div,
+  .games-div,
+  .tv-div,
+  .lap-div {
+    box-shadow: 0 0 2px;
+    padding: 15px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-big,
+  .home {
+    flex-wrap: wrap;
+  }
+
+  .form-d {
+    flex-wrap: wrap-reverse;
   }
 }
 
@@ -184,8 +205,23 @@ header {
     margin-right: 8px;
   }
 
-  .smart-phones {
-    justify-content: space-between;
+  .lap-div,
+  .phone-div,
+  .tv-div,
+  .games-div {
+    display: flex;
+    justify-content: space-around;
     align-items: center;
+    flex: 1;
+  }
+
+  .form-d input[type=text] {
+    padding: 10px 0 10px 10px;
+    outline: none;
+  }
+
+  .form-d input[type=submit] {
+    padding: 10px 15px;
+    font-size: 18px;
   }
 }
