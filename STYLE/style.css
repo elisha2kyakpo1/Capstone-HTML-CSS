@@ -185,6 +185,10 @@ header {
   .form-d {
     flex-wrap: wrap-reverse;
   }
+
+  .category {
+    display: none;
+  }
 }
 
 /* Tablet */
@@ -203,6 +207,14 @@ header {
     cursor: pointer;
     float: left;
     margin-right: 8px;
+  }
+
+  .smart-phones,
+  .lap,
+  .tv,
+  .gamesv {
+    justify-content: space-around;
+    align-items: center;
   }
 
   .lap-div,
