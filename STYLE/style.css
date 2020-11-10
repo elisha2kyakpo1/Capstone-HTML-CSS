@@ -155,7 +155,7 @@ header {
 }
 
 .cell-phone {
-  background-color: #81e6d9;
+  background-image: linear-gradient(to right, #81e6d9, #d53f8c, #805ad5);
   color: #234e52;
 }
 
@@ -191,22 +191,19 @@ header {
   }
 }
 
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .nav-cont {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
 /* tab/desktop */
 @media screen and (min-width: 768px) {
   .inner-div img {
     cursor: pointer;
     float: left;
     margin-right: 8px;
+  }
+
+  .nav-cont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .smart-phones,
