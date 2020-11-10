@@ -13,13 +13,21 @@ body {
   background-color: #4a5568;
 }
 
+header {
+  margin-bottom: 10px;
+}
+
 .zbuss,
 .home-icon,
 .collection {
   color: white;
 }
 
+.nav-link-container,
 .smart-phones,
+.lap,
+.tv,
+.gamesv,
 .nav-2,
 .form,
 .navbar-big,
@@ -48,9 +56,9 @@ body {
 .inner-div {
   max-width: 100%;
   height: auto;
-  margin: 30px 0;
+  margin: 30px 10px;
   padding: 10px;
-  box-shadow: 0 0 5px #edf2f7;
+  box-shadow: 0 0 1px #1a202c;
   border-radius: 5px;
   background-color: white;
 }
@@ -63,19 +71,32 @@ body {
   margin: 0 auto;
 }
 
-.nav-2 {
+.home {
   justify-content: space-around;
   align-items: center;
+  flex: 1;
 }
 
-.logo {
+.home-icon,
+.collection,
+.child-deal,
+.child-img,
+.child-signup {
+  margin-right: 10px;
+}
+
+.logo,
+.nav-link-container {
   justify-content: center;
   align-items: center;
 }
 
-.home {
-  justify-content: space-around;
-  align-items: center;
+.nav-link-container {
+  flex-direction: column;
+  background-color: #d35266;
+  padding-bottom: 30px;
+  color: #fff;
+  font-weight: 800;
 }
 
 .child-signup,
@@ -107,17 +128,42 @@ body {
 }
 
 .form input[type=text] {
-  padding-left: 4px;
+  padding: 10px 0 10px 10px;
+  outline: none;
+}
+
+.form input[type=submit] {
+  padding: 10px 15px;
+  font-size: 18px;
 }
 
 .footer-anchor {
+  display: inline-block;
   color: black;
   font-size: 19px;
+  border-right: 1px solid black;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: #edf2f7;
+  padding: 20px;
 }
 
 .cell-phone {
   background-color: #81e6d9;
   color: #234e52;
+}
+
+/* mobile */
+@media screan and (max-width: 767px) {
+  .smart-phones,
+  .lap,
+  .tv,
+  .gamesv {
+    flex-direction: column;
+  }
 }
 
 /* Tablet */
