@@ -159,6 +159,15 @@ header {
   color: #234e52;
 }
 
+.phone-div > div,
+.games-div > div,
+.tv-div > div,
+.lap-div > div {
+  box-shadow: 0 0 2px;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
 /* mobile */
 @media screan and (max-width: 767px) {
   .smart-phones,
@@ -166,15 +175,6 @@ header {
   .tv,
   .gamesv {
     flex: 1;
-  }
-
-  .phone-div > div,
-  .games-div,
-  .tv-div,
-  .lap-div {
-    box-shadow: 0 0 2px;
-    padding: 15px;
-    margin-bottom: 5px;
   }
 
   .navbar-big,
