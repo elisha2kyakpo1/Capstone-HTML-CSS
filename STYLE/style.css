@@ -48,6 +48,10 @@ header {
   padding: 5px;
 }
 
+.navbar-big {
+  flex-direction: column;
+}
+
 .inner-div a {
   color: #000;
   font-size: 1.2rem;
@@ -78,6 +82,13 @@ header {
   cursor: pointer;
   display: block;
   margin: 0 auto;
+}
+
+.plus {
+  float: right;
+  border: 2px solid lightgrey;
+  padding: 0 4px;
+  margin-left: auto;
 }
 
 .home,
@@ -167,19 +178,29 @@ header {
   padding: 20px;
 }
 
+label { color: #000; }
+
 .cell-phone {
-  background-image: linear-gradient(to right, #81e6d9, #d53f8c, #805ad5);
+  background-color: #81e6d9;
   color: #234e52;
 }
 
-.phone-div > div,
-.games-div > div,
-.tv-div > div,
-.lap-div > div {
-  box-shadow: 0 0 2px;
+.games,
+.tv-div,
+.laptop,
+.phone {
+  box-shadow: 0 0 6px #f7fafc;
   padding: 15px;
   margin-bottom: 10px;
 }
+
+.phone a,
+.games a,
+.tv-div a,
+.laptop a {
+  color: #000;
+  font-size: 1.2rem;
+} 
 
 .form-d {
   flex-wrap: wrap-reverse;
@@ -207,6 +228,10 @@ header {
     align-items: center;
   }
 
+  .navbar-big {
+    flex-direction: row;
+  }
+
   .lap-div,
   .phone-div,
   .tv-div,
@@ -224,7 +249,7 @@ header {
   }
 
   .form-d input[type=submit] {
-    padding: 10px 15px;
+    padding: 8px 5px;
     font-size: 18px;
   }
 }
