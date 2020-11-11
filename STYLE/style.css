@@ -140,7 +140,6 @@ header {
 .child-signup,
 .logo h4 {
   text-decoration: none;
-  color: white;
 }
 
 .child-signup {
@@ -166,15 +165,22 @@ header {
 
 .footer-anchor {
   display: inline-block;
-  color: black;
   font-size: 19px;
   border-right: 1px solid black;
   padding: 5px;
   margin-bottom: 20px;
 }
 
+.child-deal,
+.child-signup,
+.logo h4,
+.footer-anchor,
+.footer p {
+  color: #fff;
+}
+
 .footer {
-  background-color: #edf2f7;
+  background-color: #383838;
   padding: 20px;
 }
 
@@ -200,10 +206,15 @@ label { color: #000; }
 .laptop a {
   color: #000;
   font-size: 1.2rem;
-} 
+}
 
 .form-d {
   flex-wrap: wrap-reverse;
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .
 }
 
 /* tab/desktop */
@@ -219,27 +230,19 @@ label { color: #000; }
     justify-content: space-around;
   }
 
-  .smart-phones,
-  .lap,
-  .tv,
-  .gamesv {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
   }
 
   .navbar-big {
     flex-direction: row;
   }
 
-  .lap-div,
-  .phone-div,
-  .tv-div,
-  .games-div {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
+  .deals {
+    font-size: 3rem;
   }
 
   .dropdown-b button,
@@ -251,19 +254,5 @@ label { color: #000; }
   .form-d input[type=submit] {
     padding: 8px 5px;
     font-size: 18px;
-  }
-}
-
-/* mobile */
-@media screan and (max-width: 767px) {
-  .smart-phones,
-  .lap,
-  .tv,
-  .gamesv {
-    flex: 1;
-  }
-
-  .category {
-    display: none;
   }
 }
