@@ -26,6 +26,10 @@ It is a static version. All contents (texts, images, icons and fonts) have been 
 
 [Live Demo Link]( https://elisha2kyakpo1.github.io/Capstone-HTML-CSS/)
 
+## Watch Video
+
+[Project Video](https://www.loom.com/share/399fb93759d1478f8dc2d17ba1a97008)
+
 ## Contributing
 
 Contributions, issues and feature requests are welcome! Start by:

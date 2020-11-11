@@ -42,7 +42,6 @@ header {
 
 .navbar-big,
 .nav-link-container {
-  background-color: #4a5568;
   position: sticky;
   top: 0;
   right: 0;
@@ -52,6 +51,7 @@ header {
 
 .navbar-big {
   z-index: 1;
+  background-color: #4a5568;
 }
 
 .inner-div a {
