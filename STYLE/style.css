@@ -212,11 +212,6 @@ label { color: #000; }
   flex-wrap: wrap-reverse;
 }
 
-/* tablet */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .
-}
-
 /* tab/desktop */
 @media screen and (min-width: 768px) {
   .inner-div img {
