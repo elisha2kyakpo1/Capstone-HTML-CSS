@@ -17,7 +17,7 @@ header {
 .home-icon,
 .collection {
   font-family: 'Roboto', sans-serif;
-  color: white;
+  color: #888;
 }
 
 .daily-deals > div > h5 {
@@ -61,7 +61,7 @@ header {
 }
 
 .inner-div a {
-  color: #000;
+  color: #383838;
   font-size: 1.2rem;
 }
 
@@ -168,7 +168,7 @@ header {
 .footer-anchor {
   display: inline-block;
   font-size: 19px;
-  border-right: 1px solid black;
+  border-right: 1px solid #383838;
   padding: 5px;
   margin-bottom: 20px;
 }
@@ -178,7 +178,7 @@ header {
 .logo h4,
 .footer-anchor,
 .footer p {
-  color: #fff;
+  color: #888;
 }
 
 .footer {
@@ -189,11 +189,11 @@ header {
   padding: 20px;
 }
 
-label { color: #000; }
+label { color: #888; }
 
 .cell-phone {
-  background-color: #81e6d9;
-  color: #234e52;
+  background-color: #383838;
+  color: #888;
 }
 
 .games,
@@ -229,12 +229,6 @@ label { color: #000; }
   }
 
   .navbar-big {
-    position: absolute;
-    top: 0;
-    z-index: 1;
-  }
-
-  .nav-link-container {
     position: sticky;
     top: 0;
     left: 0;
@@ -263,12 +257,12 @@ label { color: #000; }
     flex-direction: column-reverse;
     align-items: flex-start;
   }
-}
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
-  .phone,
-  .game,
-  .daily-deals {
-    flex-wrap: wrap;
+  .daily-deals > div > img {
+    margin: 0 auto;
+  }
+
+  .search-I {
+    margin-bottom: 3px;
   }
 }
