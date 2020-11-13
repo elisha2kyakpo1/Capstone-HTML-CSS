@@ -8,11 +8,13 @@
 
 Screenshot: ![Screenshot of the Online shop](assets/screen-shot/Capstone_project.png)
 
-## Description
+## About
 
 This project is a replica of with few changes [ZATTIX](https://www.behance.net/gallery/24796463/ZATTIX).
 
 It is a static version. All contents (texts, images, icons and fonts) have been retrieved from the **ZATTIX** website itself.
+
+It has resiponsive pages, mobile, tablet and desktop.
 
 ## Built With
 
