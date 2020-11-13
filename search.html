@@ -15,57 +15,59 @@
 
   <body>
     <header>
-      <nav class="container-fluid navbar-big">
-        <div class="logo-div d-flex justify-content-between">
-          <div class="logo">
-            <img class="logo-img" src="assets/icons/logo.png" width="30" alt="logo">
-            <a class="zbuss" href="#">ZBuss</a>
-          </div>
-          <div class="d-flex justify-content-center">
-            <i class="my-auto fas fa-home"></i>
-            <a class="home-icon" href="index.html">HOME</a>
-          </div>
-          <div class="d-flex justify-content-center">
-            <i class="my-auto	fas fa-briefcase"></i>
-            <a class="collection" href="#">COLLECTIONS</a>
-          </div>
-        </div>
-        <div class="home ml-3">
-          <div class="d-flex justify-content-center">
-            <i class="my-auto fas fa-cart-arrow-down"></i>
-            <a class="child-deal" href="#">PURCHASE LIST</a>
-          </div>
-          <a class="child-signup" href="#">POST AN AD</a>
-          <div class="message">
-            <i class="fas fa-envelope-square"></i>
-            <a class="text-white" href="#">john doe</a>
-          </div>
-        </div>
-      </nav>
-      <nav class="nav-link-container container-fluid pb-30">
-        <div>
-          <h1 class="h1-search lead display-4">ZBuss</h1>
-          <h2 class="h2-search">Search from 1500 items on Discount!</h2>
-        </div>
-        <form action="#" class="form-d  container-fluid">
-          <div class="d-flex dropdown-b">
-            <button type="button" class=" bg-white  dropdown-toggle" data-toggle="dropdown"> All Categories </button>
-            <input type="text" placeholder="what are you searching?">
-          </div>
-          <div class="d-flex">
-            <input type="text" placeholder="Search...">
-            <input class="search-b" type="submit" value="Search">
-          </div>
-        </form>
-      </nav>
+			<nav class="container-fluid navbar-big">
+				<div class="logo-div d-flex justify-content-between">
+					<div class="logo">
+						<img class="logo-img" src="assets/icons/logo.png" width="30" alt="logo">
+						<a class="zbuss" href="#">ZBuss</a>
+					</div>
+					<div class="d-flex justify-content-center">
+						<i class="my-auto fas fa-home"></i>
+						<a class="home-icon" href="index.html">HOME</a>
+					</div>
+					<div class="d-flex justify-content-center">
+						<i class="my-auto	fas fa-briefcase"></i>
+						<a class="collection" href="#">COLLECTIONS</a>
+					</div>
+				</div>
+				<div class="home ml-3">
+					<div class="d-flex justify-content-center">
+						<i class="my-auto fas fa-cart-arrow-down"></i>
+						<a class="child-deal" href="#">PURCHASE LIST</a>
+					</div>
+					<a class="child-signup" href="#">POST AN AD</a>
+					<div class="message">
+						<i class="fas fa-envelope-square"></i>
+						<a class="text-white" href="#">john doe</a>
+					</div>
+				</div>
+			</nav>
+			<nav class="nav-link-container container-fluid pb-30">
+				<div class="div-z container-fluid">
+					<h1 class="h1-search lead display-4">ZBuss</h1>
+					<h2 class="h2-search">Search from 1,500 items on Discount!</h2>
+				</div>
+				<form action="#" class="form-d  container-fluid ml-0 pl-0">
+					<div class="d-flex dropdown-b">
+						<button type="button" class=" bg-white  dropdown-toggle" data-toggle="dropdown"> All Categories </button>
+						<input type="text" placeholder="what are you searching?">
+					</div>
+					<div class="d-flex">
+						<input type="text" placeholder="Search...">
+						<input class="search-b ml-2" type="submit" value="Search">
+					</div>
+				</form>
+			</nav>
     </header>
     <main>
+      <hr>
       <!-- Laptops & Netbooks -->
       <section class="container-fluid">
         <h2 class="d-block my-2 display-4">Laptops & Netbooks</h2>
         <h3>Shop by Category</h3>
         <div class="container-fluid justify-content-md-between d-md-flex">
-          <form action="#" class="category justify-content-md-between d-md-flex container-fluid">
+          <form action="#"
+            class="category flex-md-wrap flex-lg-nowrap justify-content-md-between d-md-flex container-fluid">
             <div>
               <h6>TYPE</h6>
               <label><input type="checkbox">MACBook</label><br>
@@ -98,49 +100,53 @@
               <label><input type="checkbox">TOSHIBA</label><br>
             </div>
           </form>
-          <div class="inner-div">
-            <div class="d-md-flex justify-content-md-around mb-3">
+          <div class="inner-div container-fluid">
+            <div class="d-md-flex justify-content-md-around mb-3 container-fluid">
               <div>
                 <img class="img-fluid" src="assets/electronic-image/c4.jpg" alt="laptop">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">Microsoft Surface Book 13" (i7)(16GB RAM)(500GB SSD)</a>
                 <p>$1,185.09</p>
                 <p class="shipping"> $92.92 shipping</p>
-                <p> Best Offer</p>
+                <p class="text-danger"> Best Offer</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
-            <div class="d-md-flex justify-content-md-between">
+            <div class="d-md-flex justify-content-md-around container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c2.jpg" alt="Phone">
+                <img class="img-fluid" src="assets/electronic-image/c4.jpg" alt="Phone">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">APPLE iPHONE 6S 16GB / 64GB / 128GB</a>
                 <p>$124.87 to $203.74</p>
                 <p class="shipping"> $52.51 shipping</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <hr>
       <!-- Phones & Tablets -->
       <section class="container-fluid">
         <h2 class="d-block display-4 my-2">Phones & Tablets</h2>
         <h3>Shop by Category</h3>
         <div class="container-fluid justify-content-md-between d-md-flex">
-          <form action="#" class="category justify-content-md-between d-md-flex container-fluid">
+          <form action="#"
+            class="category flex-md-wrap flex-lg-nowrap justify-content-md-between d-md-flex container-fluid">
             <div>
               <h6>TYPE</h6>
-              <label><input type="checkbox">MACBook</label><br>
-              <label><input type="checkbox">HP</label><br>
-              <label><input type="checkbox">DELL</label><br>
+              <label><input type="checkbox">iPHONE</label><br>
+              <label><input type="checkbox">TECHNO</label><br>
+              <label><input type="checkbox">SUMSUNG</label><br>
               <label><input type="checkbox">SONY</label><br>
               <label><input type="checkbox">LENOVO</label><br>
-              <label><input type="checkbox">TOSHIBA</label><br>
+              <label><input type="checkbox">HTC</label><br>
               <label><input type="checkbox">CAT</label><br>
-              <label><input type="checkbox">SUMSUNG</label><br>
+              <label><input type="checkbox">NOKIA</label><br>
               <label><input type="checkbox">ACCER</label><br>
               <label><input type="checkbox">Xiaomi</label><br>
             </div>
@@ -163,47 +169,51 @@
               <label><input type="checkbox">TOSHIBA</label><br>
             </div>
           </form>
-          <div class="inner-div">
-            <div class="d-md-flex justify-content-md-around mb-3">
+          <div class="inner-div container-fluid">
+            <div class="d-md-flex justify-content-md-around mb-3 container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c4.jpg" alt="laptop">
+                <img class="img-fluid" src="assets/phones/p2.jpg" alt="laptop">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">Microsoft Surface Book 13" (i7)(16GB RAM)(500GB SSD)</a>
                 <p>$1,185.09</p>
                 <p class="shipping"> $92.92 shipping</p>
-                <p> Best Offer</p>
+                <p class="text-danger"> Best Offer</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
-            <div class="d-md-flex justify-content-md-between">
+            <div class="d-md-flex justify-content-md-between container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c2.jpg" alt="Phone">
+                <img class="img-fluid" src="assets/phones/p2.jpg" alt="Phone">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">APPLE iPHONE 6S 16GB / 64GB / 128GB</a>
                 <p>$124.87 to $203.74</p>
                 <p class="shipping"> $52.51 shipping</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- TELEVISION -->
+      <hr>
       <section class="container-fluid">
         <h2 class="d-block my-2 display-4">TV'S</h2>
         <h3>Shop by Category</h3>
         <div class="container-fluid justify-content-md-between d-md-flex">
-          <form action="#" class="category justify-content-md-between d-md-flex container-fluid">
+          <form action="#"
+            class="category flex-md-wrap flex-lg-nowrap justify-content-md-between d-md-flex container-fluid">
             <div>
               <h6>TYPE</h6>
-              <label><input type="checkbox">MACBook</label><br>
-              <label><input type="checkbox">HP</label><br>
-              <label><input type="checkbox">DELL</label><br>
-              <label><input type="checkbox">SONY</label><br>
-              <label><input type="checkbox">LENOVO</label><br>
-              <label><input type="checkbox">TOSHIBA</label><br>
+              <label><input type="checkbox">Hisense</label><br>
+              <label><input type="checkbox">Sumsung</label><br>
+              <label><input type="checkbox">Sony</label><br>
+              <label><input type="checkbox">Panasonic</label><br>
+              <label><input type="checkbox">Skyworth</label><br>
+              <label><input type="checkbox"></label><br>
               <label><input type="checkbox">CAT</label><br>
               <label><input type="checkbox">SUMSUNG</label><br>
               <label><input type="checkbox">ACCER</label><br>
@@ -228,28 +238,30 @@
               <label><input type="checkbox">TOSHIBA</label><br>
             </div>
           </form>
-          <div class="inner-div">
-            <div class="d-md-flex justify-content-md-around mb-3">
+          <div class="inner-div container-fluid">
+            <div class="d-md-flex justify-content-md-around mb-3 container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c4.jpg" alt="laptop">
+                <img class="img-fluid" src="assets/tv/t3.jpg" alt="laptop">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">Microsoft Surface Book 13" (i7)(16GB RAM)(500GB SSD)</a>
                 <p>$1,185.09</p>
                 <p class="shipping"> $92.92 shipping</p>
-                <p> Best Offer</p>
+                <p class="text-danger"> Best Offer</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
-            <div class="d-md-flex justify-content-md-between">
+            <div class="d-md-flex justify-content-md-between container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c2.jpg" alt="Phone">
+                <img class="img-fluid" src="assets/tv/t3.jpg" alt="Phone">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">APPLE iPHONE 6S 16GB / 64GB / 128GB</a>
                 <p>$124.87 to $203.74</p>
                 <p class="shipping"> $52.51 shipping</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
           </div>
@@ -261,7 +273,8 @@
         <h2 class="d-block my-2 display-4">video-games</h2>
         <h3>Shop by Category</h3>
         <div class="container-fluid justify-content-md-between d-md-flex">
-          <form action="#" class="category justify-content-md-between d-md-flex container-fluid">
+          <form action="#"
+            class="category flex-md-wrap flex-lg-nowrap justify-content-md-between d-md-flex container-fluid">
             <div>
               <h6>TYPE</h6>
               <label><input type="checkbox">MACBook</label><br>
@@ -294,35 +307,38 @@
               <label><input type="checkbox">TOSHIBA</label><br>
             </div>
           </form>
-          <div class="inner-div">
-            <div class="d-md-flex justify-content-md-around mb-3">
+          <div class="inner-div container-fluid">
+            <div class="d-md-flex justify-content-md-around mb-3 container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c4.jpg" alt="laptop">
+                <img class="img-fluid" src="assets/video-games/g1.jpg" alt="laptop">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">Microsoft Surface Book 13" (i7)(16GB RAM)(500GB SSD)</a>
                 <p>$1,185.09</p>
                 <p class="shipping"> $92.92 shipping</p>
-                <p> Best Offer</p>
+                <p class="text-danger"> Best Offer</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
-            <div class="d-md-flex justify-content-md-between">
+            <div class="d-md-flex justify-content-md-between container-fluid">
               <div>
-                <img class="img-fluid" src="assets/electronic-image/c2.jpg" alt="Phone">
+                <img class="img-fluid" src="assets/video-games/g1.jpg" alt="Phone">
               </div>
-              <div>
+              <div class="p-3">
                 <a href="#">APPLE iPHONE 6S 16GB / 64GB / 128GB</a>
                 <p>$124.87 to $203.74</p>
                 <p class="shipping"> $52.51 shipping</p>
                 <button class="btn buy" type="button">BUY</button>
+                <button class="btn buy" type="button">Add to collection</button>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- FOOTER -->
-      <footer class=" footer container-fluid">
+      <hr class="mt-5">
+      <footer class=" footer container-fluid mt-10">
         <div>
           <a class="footer-anchor" href="#">About zbuss</a>
           <a class="footer-anchor" href="#">Announcements</a>
@@ -334,9 +350,9 @@
         <p>Copyright &copy;2020 ZBuss Inc. All Rights Reserved. Accessibility, User Agreement, Privacy, Cookies, Do not
           sell my personal information and ad Choice</p>
       </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </main>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   </body>
 
 </html>

@@ -9,10 +9,6 @@ body {
   background-color: whitesmoke;
 }
 
-header {
-  margin-bottom: 10px;
-}
-
 .zbuss {
   color: white;
   margin-right: auto;
@@ -25,7 +21,8 @@ header {
 
 .home-icon {
   color: #d35266;
-  font-weight: 500;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
 }
 
 .daily-deals > div > h5 {
@@ -99,8 +96,12 @@ header {
 .nav-2,
 .category {
   justify-content: space-around;
-  align-items: center;
+  align-items: baseline;
   flex: 1;
+}
+
+.category {
+  border-top: 1px solid #383838;
 }
 
 .child-img,
@@ -131,18 +132,15 @@ header {
   text-align: justify;
 }
 
-.nav-link-container {
+header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
   background-color: #d35266;
   padding-bottom: 30px;
+  margin-bottom: 10px;
   color: #fff;
   font-weight: 800;
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: 0;
 }
 
 .buy {
@@ -153,6 +151,14 @@ header {
   color: #fff;
 }
 
+.buy:hover {
+  color: #888;
+}
+
+section > h2 {
+  text-align: center;
+}
+
 .child-img,
 .logo-img {
   cursor: pointer;
@@ -161,6 +167,7 @@ header {
 .child-deal,
 .child-signup,
 .logo h4 {
+  color: #888;
   text-decoration: none;
 }
 
@@ -193,20 +200,23 @@ header {
   margin-bottom: 20px;
 }
 
-.child-deal,
-.child-signup,
-.logo h4,
 .footer-anchor,
 .footer p {
-  color: #888;
+  color: #383838;
+}
+
+.footer-anchor:hover {
+  color: #fff;
 }
 
 .footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #383838;
+  background-color: #888;
   padding: 20px;
+  position: sticky;
+  bottom: 0;
 }
 
 label { color: #888; }
@@ -246,6 +256,10 @@ label { color: #888; }
     cursor: pointer;
     margin: auto;
     max-width: 100%;
+  }
+
+  section > h3 {
+    margin-left: 12px;
   }
 
   .navbar-big {
@@ -296,6 +310,10 @@ label { color: #888; }
 
   .search-I {
     margin-bottom: 3px;
+  }
+
+  .nav-link-container {
+    flex-wrap: wrap;
   }
 
   .child-signup,
