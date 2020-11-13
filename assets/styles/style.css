@@ -5,19 +5,27 @@
   margin: 0;
 }
 
+body {
+  background-color: whitesmoke;
+}
+
 header {
   margin-bottom: 10px;
 }
 
 .zbuss {
+  color: white;
   margin-right: auto;
 }
 
-.zbuss,
-.home-icon,
 .collection {
   font-family: 'Roboto', sans-serif;
   color: #888;
+}
+
+.home-icon {
+  color: #d35266;
+  font-weight: 500;
 }
 
 .daily-deals > div > h5 {
@@ -38,26 +46,10 @@ header {
   font-family: 'Roboto', sans-serif;
 }
 
-.home,
-.nav-link-container {
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  padding: 5px;
-}
-
-.navbar-big,
-.nav-link-container {
-  position: sticky;
-  top: 0;
-  right: 0;
-  left: 0;
-  flex-direction: column;
-}
-
 .navbar-big {
   z-index: 1;
   background-color: #383838;
+  padding-bottom: 3px;
 }
 
 .inner-div a {
@@ -108,29 +100,30 @@ header {
   margin-right: 10px;
 }
 
+.logo-div {
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
 .logo,
-.nav-link-container,
 .form-d {
   justify-content: center;
   align-items: center;
 }
 
 .nav-link-container {
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
   background-color: #d35266;
   padding-bottom: 30px;
   color: #fff;
   font-weight: 800;
-}
-
-.h2-search {
-  justify-self: start;
-}
-
-.child-signup,
-.child-deal,
-.child-img {
-  margin-left: 8px;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
 }
 
 .child-img,
@@ -147,10 +140,9 @@ header {
 .child-signup {
   display: inline-block;
   padding: 2px 3px;
-  border: 1px solid gray;
-  background-color: #f6e05e;
+  background-color: #d35266;
   font-weight: bold;
-  color: #000;
+  color: white;
   border-radius: 3px;
 }
 
@@ -229,10 +221,13 @@ label { color: #888; }
   }
 
   .navbar-big {
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .child-signup,
+  .child-deal {
+    margin-left: 8px;
   }
 
   .deals {
@@ -243,6 +238,15 @@ label { color: #888; }
   .form-d input[type=text] {
     padding: 10px 0 10px 10px;
     outline: none;
+  }
+
+  .home,
+  .nav-link-container {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    flex: 1;
   }
 
   .form-d input[type=submit] {
@@ -264,5 +268,27 @@ label { color: #888; }
 
   .search-I {
     margin-bottom: 3px;
+  }
+
+  .child-signup,
+  .message {
+    display: none;
+  }
+
+  .zbuss,
+  .home-icon,
+  .collection {
+    font-size: 12px;
+    margin-right: 5px;
+  }
+
+  .child-deal {
+    font-size: 12px;
+  }
+
+  .logo-div {
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
   }
 }
