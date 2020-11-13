@@ -28,7 +28,7 @@ It is a static version. All contents (texts, images, icons and fonts) have been 
 
 ## Watch Video
 
-[Project Video](https://github.com/elisha2kyakpo1/Capstone-HTML-CSS/pull/1)
+[Project Video](https://www.loom.com/share/2f0aafebcc20476aa1d48e71e81867ba)
 
 ## Contributing
 
