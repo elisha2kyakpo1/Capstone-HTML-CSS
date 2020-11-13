@@ -102,6 +102,8 @@ body {
 }
 
 .category {
+  padding-top: 5px;
+  margin-top: 5px;
   border-top: 1px solid #383838;
 }
 
@@ -274,11 +276,6 @@ label { color: #888; }
 
   section > h3 {
     margin-left: 12px;
-  }
-
-  .footer {
-    position: sticky;
-    bottom: 0;
   }
 
   .child-signup,
