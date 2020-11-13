@@ -80,6 +80,15 @@ body {
   margin: 8px auto;
 }
 
+.home-page,
+.search-page {
+  display: block;
+  background-color: #d35266;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
 .search-b {
   background-color: #383838;
   color: #888;
@@ -199,6 +208,7 @@ section > h2 {
   font-size: 19px;
   padding: 5px;
 }
+
 
 .footer-anchor,
 .footer p {
