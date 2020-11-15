@@ -25,7 +25,7 @@ body {
 
 .home-icon {
   color: #d35266;
-  font-weight: 800;
+  font-weight: 500;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -109,7 +109,7 @@ body {
 .nav-2,
 .category {
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
   flex: 1;
 }
 
@@ -138,8 +138,12 @@ body {
 
 .div-z {
   flex-direction: column;
-  align-self: flex-start;
-  margin-left: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: #888;
 }
 
 header {
@@ -149,8 +153,7 @@ header {
   background-color: #d35266;
   padding-bottom: 30px;
   margin-bottom: 10px;
-  color: #fff;
-  font-weight: 800;
+  font-weight: 500;
 }
 
 .buy {
@@ -361,7 +364,11 @@ label { color: #888; }
   .home-icon,
   .collection {
     font-size: 12px;
-    margin-right: 5px;
+    margin-left: 5px;
+  }
+
+  .dropdown-b {
+    margin-top: 5px;
   }
 
   .child-deal {
