@@ -338,6 +338,11 @@ label { color: #888; }
     font-size: 3rem;
   }
 
+  .img {
+    height: 200px;
+    object-fit: cover;
+  }
+
   .dropdown-b button,
   .form-d input[type=text] {
     padding: 10px 0 10px 10px;
