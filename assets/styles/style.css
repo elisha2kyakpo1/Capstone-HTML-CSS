@@ -1,4 +1,8 @@
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -68,8 +72,7 @@ body {
   background-color: white;
 }
 
-.inner-div img,
-.phone-div > div > img {
+.inner-div img {
   max-width: 100%;
   max-height: 100%;
   width: auto;
@@ -137,11 +140,6 @@ body {
   flex-direction: column;
   align-self: flex-start;
   margin-left: 50px;
-}
-
-.h1-search,
-.h2-search {
-  text-align: justify;
 }
 
 header {
@@ -252,11 +250,21 @@ label { color: #888; }
 }
 
 .games,
-.tv-div,
-.laptop {
-  box-shadow: 0 0 1px #383838;
+.tv-div {
+  flex: 1;
+  box-shadow: 0 2px 1px #888;
   padding: 15px;
   margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.games > div > img,
+.tv-div > div > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .phone a,
