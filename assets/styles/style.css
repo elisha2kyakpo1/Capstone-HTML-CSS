@@ -43,7 +43,8 @@ body {
 .navbar-big,
 .home,
 .signup,
-.logo {
+.logo,
+.cat > div {
   display: flex;
   font-family: 'Roboto', sans-serif;
 }
@@ -236,7 +237,6 @@ section > h2 {
 }
 
 .catego {
-  width: 300px;
   margin: 0 auto;
   border-bottom: 2px solid #d35266;
 }
@@ -320,6 +320,15 @@ label { color: #888; }
     margin-left: 12px;
   }
 
+  .catego {
+    width: 400px;
+  }
+
+  .cat > div {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
   .child-signup,
   .child-deal {
     margin-left: 8px;
@@ -367,6 +376,15 @@ label { color: #888; }
 
   .nav-link-container {
     flex-wrap: wrap;
+  }
+
+  .catego {
+    width: 300px;
+  }
+
+  .cat > div {
+    justify-content: space-between;
+    align-items: center;
   }
 
   .child-signup,
