@@ -355,7 +355,7 @@ label { color: #888; }
 
   .home,
   .nav-link-container {
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     padding: 5px;
@@ -415,6 +415,8 @@ label { color: #888; }
     margin-top: 5px;
   }
 
+  .collection,
+  .home-icon,
   .child-deal {
     font-size: 12px;
   }
