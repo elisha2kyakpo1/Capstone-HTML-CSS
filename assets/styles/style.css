@@ -1,0 +1,434 @@
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.zbuss {
+  color: white;
+  margin-right: auto;
+}
+
+.collection {
+  font-family: 'Roboto', sans-serif;
+  color: #888;
+}
+
+.home-icon {
+  color: #d35266;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+}
+
+.daily-deals > div > h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.category,
+.div-z,
+.footer,
+.form-d,
+.nav-link-container,
+.nav-2,
+.nav-cont,
+.form,
+.navbar-big,
+.home,
+.signup,
+.logo,
+.cat > div {
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-big {
+  z-index: 1;
+  background-color: #383838;
+  padding-bottom: 3px;
+}
+
+.inner-div a {
+  color: #383838;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.inner-div {
+  flex: 2;
+}
+
+.inner-div > div {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  box-shadow: 0 2px 1px #888;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.inner-div img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: cover;
+  cursor: pointer;
+  display: block;
+  margin: 8px auto;
+}
+
+.h1-search {
+  color: #fff;
+  font-weight: 800;
+}
+
+.h2-search {
+  color: #fff;
+  font-weight: 500;
+}
+
+.home-page,
+.search-page {
+  display: block;
+  background-color: #d35266;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+}
+
+.search-b {
+  background-color: #383838;
+  color: #888;
+}
+
+.plus {
+  float: right;
+  clear: both;
+  border: 2px solid lightgrey;
+  padding: 0 4px;
+  margin-left: auto;
+}
+
+.home,
+.nav-2,
+.category {
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+
+.category {
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 5px;
+  margin-top: 5px;
+  border-top: 1px solid #383838;
+}
+
+.child-img,
+.child-signup {
+  margin-right: 10px;
+}
+
+.logo-div {
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.logo,
+.form-d {
+  justify-content: center;
+  align-items: center;
+}
+
+.div-z {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fas {
+  color: #888;
+}
+
+header {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #d35266;
+  padding-bottom: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.buy {
+  background-color: #d35266;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  color: #fff;
+}
+
+.buy:hover {
+  color: #888;
+}
+
+section > h2 {
+  text-align: center;
+}
+
+.child-img,
+.logo-img {
+  cursor: pointer;
+}
+
+.child-deal,
+.child-signup,
+.logo h4 {
+  color: #888;
+  text-decoration: none;
+}
+
+.child-signup {
+  display: inline-block;
+  padding: 2px 3px;
+  background-color: #d35266;
+  font-weight: bold;
+  color: white;
+  border-radius: 3px;
+}
+
+.child-signup:hover {
+  color: #888;
+}
+
+.dropdown-b button,
+.form-d input[type=text] {
+  padding: 5px 0 5px 5px;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form-d input[type=submit] {
+  padding: 5px 10px;
+  font-size: 16px;
+}
+
+.footer-anchor {
+  font-size: 19px;
+  padding: 5px;
+  text-transform: lowercase;
+}
+
+.footer-anchor,
+.footer p {
+  color: #383838;
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-anchor:hover {
+  color: #fff;
+}
+
+.catego {
+  margin: 0 auto;
+  border-bottom: 2px solid #d35266;
+}
+
+.cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 2;
+}
+
+.logo-footer {
+  flex: 1;
+}
+
+.footer {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+
+label { color: #888; }
+
+.cell-phone {
+  background-color: #383838;
+  color: #888;
+}
+
+.games,
+.tv-div {
+  flex: 1;
+  box-shadow: 0 2px 1px #888;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.price {
+  border-left: 1px solid rgba(136, 136, 136, 0.3);
+  border-right: 1px solid rgba(136, 136, 136, 0.3);
+  border-bottom: 1px solid rgba(136, 136, 136, 0.3);
+  border-radius: 0 0 5px 5px;
+}
+
+.games > div > img,
+.tv-div > div > img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.phone a,
+.games a,
+.tv-div a,
+.laptop a {
+  color: #000;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.zbuss:hover,
+.home-icon:hover,
+.collection:hover,
+.child-deal:hover {
+  color: #d35266;
+}
+
+/* tab/desktop */
+@media screen and (min-width: 768px) {
+  .inner-div img {
+    cursor: pointer;
+    margin: auto;
+    max-width: 100%;
+  }
+
+  section > h3 {
+    margin-left: 12px;
+  }
+
+  .catego {
+    width: 400px;
+  }
+
+  .cat > div {
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .child-signup,
+  .child-deal {
+    margin-left: 8px;
+  }
+
+  .deals {
+    font-size: 3rem;
+  }
+
+  .img {
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .dropdown-b button,
+  .form-d input[type=text] {
+    padding: 10px 0 10px 10px;
+    outline: none;
+  }
+
+  .home,
+  .nav-link-container {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px;
+    flex: 1;
+  }
+
+  .form-d input[type=submit] {
+    padding: 8px 5px;
+    font-size: 18px;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+  .form-d {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+
+  .daily-deals > div > img {
+    margin: 0 auto;
+  }
+
+  .search-I {
+    margin-bottom: 3px;
+  }
+
+  .nav-link-container {
+    flex-wrap: wrap;
+  }
+
+  .catego {
+    width: 300px;
+  }
+
+  .cat > div {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .child-signup,
+  .message {
+    display: none;
+  }
+
+  .category {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 12px;
+    margin: 0 5px 0 0;
+  }
+
+  .dropdown-b {
+    margin-top: 5px;
+  }
+
+  .collection,
+  .home-icon,
+  .child-deal {
+    font-size: 12px;
+  }
+
+  .home {
+    padding: 0;
+    margin: 0;
+  }
+
+  .logo-div {
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+  }
+}
